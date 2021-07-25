@@ -6,7 +6,7 @@ Foi criado um sistema de gestão de produtos e clientes.
 
 Os dados enviados pelo formulário estão salvos no Local Storage do navegador.
 
-Você pode verificar o funcionamento em [Gestão de Cadastro](https://link)
+Você pode verificar o funcionamento em [Gestão de Cadastro](https://focused-lovelace-27ba21.netlify.app/)
 
 ## Para a elaboração do projeto utilizei:
 
