@@ -1,0 +1,7 @@
+{
+"version": 3,
+"mappings": "AAGQ,wFAAgF,CAMxF,IAAK,CACH,gBAAgB,CAJC,GAAG,CAKpB,WAAW,CANC,mBAAoB",
+"sources": ["scss/styles.scss"],
+"names": [],
+"file": "style.min.css"
+}

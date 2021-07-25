@@ -1,0 +1,115 @@
+@import 'index';
+@import 'customers';
+@import 'products';
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap');
+
+$font-family: 'Roboto', sans-serif;
+$font-size: 0.875rem;
+$white-smoke-color: #f8f8f8;
+$light-magenta-color: #a700ae;
+$dark-magenta-color: #8c0095;
+$very-light-gray-color: #ccc;
+
+body {
+  background-color: $white-smoke-color;
+  font-family: $font-family;
+  font-size: $font-size;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.d-none {
+  display: none !important;
+}
+
+.d-block {
+  display: block !important;
+}
+
+.container {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+  min-height: 100vh;
+
+  display: grid;
+  grid-template-rows: auto 1fr auto;
+}
+
+.header {
+  min-height: 50px;
+}
+
+.content {
+  padding-top: 20px;
+}
+
+.footer {
+  min-height: 50px;
+  background: $light-magenta-color;
+  color: $white-smoke-color;
+  text-align: center;
+}
+
+.btn {
+  background: $light-magenta-color;
+  border: none;
+  border-radius: 10px;
+  color: $white-smoke-color;
+  display: inline-block;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  min-width: 150px;
+  padding: 10px;
+  text-align: center;
+  text-decoration: none;
+}
+
+.form {
+  max-width: 500px;
+
+  .form-group {
+    margin-bottom: 10px;
+
+    label {
+      display: block;
+      margin-bottom: 10px;
+    }
+
+    input {
+      border: 1px solid $very-light-gray-color;
+      border-radius: 4px;
+      display: block;
+      padding: 10px;
+      width: 100%;
+    }
+  }
+}
+
+table {
+  border-collapse: collapse;
+  width: 100%;
+
+  thead {
+    th {
+      border: 1px solid #ddd;
+      padding: 8px;
+      text-align: left;
+      background-color: $light-magenta-color;
+      color: white;
+
+      &:hover {
+        background-color: $dark-magenta-color;
+      }
+    }
+  }
+
+  td,
+  tr {
+    border: 1px solid #ddd;
+    padding: 8px;
+  }
+
+  td {
+    padding: 10px;
+  }
+}

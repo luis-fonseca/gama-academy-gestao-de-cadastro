@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Sistema de Gestão - Clientes</title>
+  <link rel="stylesheet" href="assets/css/styles.min.css">
+</head>
+
+<body>
+  <main class="container">
+    <header class="header">
+      <h1>Sistema de Gestão de Produtos e Clientes</h1>
+      <a class="btn" href="/index.html">Página Inicial</a>
+      <a class="btn" href="/products.html">Produtos</a>
+    </header>
+    <section class="content">
+      <form action="#" class="form">
+        <div class="form-group">
+          <label for="name">Nome</label>
+          <input type="text" id="name" name="name" placeholder="Nome">
+        </div>
+        <div class="form-group">
+          <label for="address">Endereço</label>
+          <input type="text" id="address" name="address" placeholder="Endereço">
+        </div>
+        <button type="button" id="create" class="btn">Cadastrar</button>
+        <button type="button" id="clear" class="btn">Limpar Dados</button>
+      </form>
+
+      <div class="customers">
+        <h2>Clientes cadastrados</h2>
+        <div class="customers-list">
+          <p>Nenhum cliente cadastrado.</p>
+          <table class="table d-none">
+            <thead>
+              <tr>
+                <th>Nome</th>
+                <th>Endereço</th>
+              </tr>
+            </thead>
+            <tbody>
+              <td>Joe Doe</td>
+              <td>Avenue Bergamota</td>
+            </tbody>
+            <tfoot>
+              <tr>
+                <td colspan="2">Lorem ipsum dolor sit amet consectetur adipisicing elit. Numquam, esse.</td>
+              </tr>
+            </tfoot>
+          </table>
+        </div>
+      </div>
+    </section>
+    <footer class="footer">
+      <p>Quase todos os direitos reservados.</p>
+    </footer>
+  </main>
+
+  <script src="assets/scripts/customers.js"></script>
+</body>
+
+</html>
